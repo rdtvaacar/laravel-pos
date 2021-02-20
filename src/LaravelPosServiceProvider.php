@@ -1,6 +1,6 @@
 <?php
 
-namespace TarfinLabs\LaravelPos;
+namespace Rdtvaacar\LaravelPos;
 
 use Illuminate\Support\ServiceProvider;
 

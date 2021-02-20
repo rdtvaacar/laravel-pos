@@ -1,6 +1,6 @@
 <?php
 
-namespace TarfinLabs\LaravelPos\Exceptions;
+namespace Rdtvaacar\LaravelPos\Exceptions;
 
 use Exception;
 

@@ -1,12 +1,12 @@
 <?php
 
 
-namespace TarfinLabs\LaravelPos\Concerns;
+namespace Rdtvaacar\LaravelPos\Concerns;
 
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
-use TarfinLabs\LaravelPos\Transaction;
+use Rdtvaacar\LaravelPos\Transaction;
 
 trait ManagesTransactions
 {

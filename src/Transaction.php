@@ -1,7 +1,7 @@
 <?php
 
 
-namespace TarfinLabs\LaravelPos;
+namespace Rdtvaacar\LaravelPos;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;

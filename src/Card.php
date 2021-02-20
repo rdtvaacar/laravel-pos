@@ -1,10 +1,10 @@
 <?php
 
 
-namespace TarfinLabs\LaravelPos;
+namespace Rdtvaacar\LaravelPos;
 
 
-use TarfinLabs\LaravelPos\Exceptions\CardException;
+use Rdtvaacar\LaravelPos\Exceptions\CardException;
 
 class Card
 {

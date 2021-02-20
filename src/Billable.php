@@ -1,10 +1,10 @@
 <?php
 
 
-namespace TarfinLabs\LaravelPos;
+namespace Rdtvaacar\LaravelPos;
 
 
-use TarfinLabs\LaravelPos\Concerns\ManagesTransactions;
+use Rdtvaacar\LaravelPos\Concerns\ManagesTransactions;
 
 trait Billable
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace TarfinLabs\LaravelPos\Tests;
+namespace Rdtvaacar\LaravelPos\Tests;
 
 use Orchestra\Testbench\TestCase;
-use TarfinLabs\LaravelPos\LaravelPosServiceProvider;
-use TarfinLabs\LaravelPos\Tests\Fixtures\User;
+use Rdtvaacar\LaravelPos\LaravelPosServiceProvider;
+use Rdtvaacar\LaravelPos\Tests\Fixtures\User;
 
 
 abstract class FeatureTestCase extends TestCase

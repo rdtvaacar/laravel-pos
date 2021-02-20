@@ -1,9 +1,9 @@
 # Laravel Pos
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/tarfin-labs/laravel-pos.svg?style=flat-square)](https://packagist.org/packages/tarfin-labs/laravel-pos)
-[![Build Status](https://img.shields.io/travis/tarfin-labs/laravel-pos/master.svg?style=flat-square)](https://travis-ci.org/tarfin-labs/laravel-pos)
-[![Quality Score](https://img.shields.io/scrutinizer/g/tarfin-labs/laravel-pos.svg?style=flat-square)](https://scrutinizer-ci.com/g/tarfin-labs/laravel-pos)
-[![Total Downloads](https://img.shields.io/packagist/dt/tarfin-labs/laravel-pos.svg?style=flat-square)](https://packagist.org/packages/tarfin-labs/laravel-pos)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/rdtvaacar/laravel-pos.svg?style=flat-square)](https://packagist.org/packages/rdtvaacar/laravel-pos)
+[![Build Status](https://img.shields.io/travis/rdtvaacar/laravel-pos/master.svg?style=flat-square)](https://travis-ci.org/rdtvaacar/laravel-pos)
+[![Quality Score](https://img.shields.io/scrutinizer/g/rdtvaacar/laravel-pos.svg?style=flat-square)](https://scrutinizer-ci.com/g/rdtvaacar/laravel-pos)
+[![Total Downloads](https://img.shields.io/packagist/dt/rdtvaacar/laravel-pos.svg?style=flat-square)](https://packagist.org/packages/rdtvaacar/laravel-pos)
 
 EST altyapısını kullanan bankalar için Laravel sanal pos entegrasyonu.
 
@@ -12,13 +12,13 @@ EST altyapısını kullanan bankalar için Laravel sanal pos entegrasyonu.
 laravel-pos paketini composer ile aşağıdaki komutu çalıştırarak kolayca ekleyebilirsiniz :
 
 ```bash
-composer require tarfin-labs/laravel-pos
+composer require rdtvaacar/laravel-pos
 ```
 
 Sonrasında config dosyasını ve migrationları publish etmeniz gerekmektedir:
 
 ```bash
-php artisan vendor:publish --provider="TarfinLabs\LaravelPos\LaravelPosServiceProvider"
+php artisan vendor:publish --provider="Rdtvaacar\LaravelPos\LaravelPosServiceProvider"
 ```
 
 Konfigürasyonu tamamlamak için kullanacağız bankalara ait gerekli bilgileri config dosyasında tanımlayıp

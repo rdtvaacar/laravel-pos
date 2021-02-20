@@ -1,6 +1,6 @@
 <?php
 
-namespace TarfinLabs\LaravelPos\Integrators;
+namespace Rdtvaacar\LaravelPos\Integrators;
 
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\Facades\Http;

@@ -1,9 +1,9 @@
 <?php
 
-namespace TarfinLabs\LaravelPos\Tests;
+namespace Rdtvaacar\LaravelPos\Tests;
 
 use Orchestra\Testbench\TestCase;
-use TarfinLabs\LaravelPos\LaravelPosServiceProvider;
+use Rdtvaacar\LaravelPos\LaravelPosServiceProvider;
 
 class ExampleTest extends TestCase
 {
@@ -12,7 +12,7 @@ class ExampleTest extends TestCase
     {
         return [LaravelPosServiceProvider::class];
     }
-    
+
     /** @test */
     public function true_is_true()
     {

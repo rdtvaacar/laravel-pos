@@ -1,11 +1,11 @@
 {
-    "name": "tarfin-labs/laravel-pos",
+    "name": "rdtvaacar/laravel-pos",
     "description": "laravel pos package",
     "keywords": [
-        "tarfin-labs",
+        "rdtvaacar",
         "laravel-pos"
     ],
-    "homepage": "https://github.com/tarfin-labs/laravel-pos",
+    "homepage": "https://github.com/rdtvaacar/laravel-pos",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "TarfinLabs\\LaravelPos\\": "src"
+            "Rdtvaacar\\LaravelPos\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "TarfinLabs\\LaravelPos\\Tests\\": "tests"
+            "Rdtvaacar\\LaravelPos\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -46,10 +46,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "TarfinLabs\\LaravelPos\\LaravelPosServiceProvider"
+                "Rdtvaacar\\LaravelPos\\LaravelPosServiceProvider"
             ],
             "aliases": {
-                "LaravelPos": "TarfinLabs\\LaravelPos\\LaravelPosFacade"
+                "LaravelPos": "Rdtvaacar\\LaravelPos\\LaravelPosFacade"
             }
         }
     }

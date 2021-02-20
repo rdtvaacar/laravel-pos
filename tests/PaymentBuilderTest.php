@@ -1,15 +1,15 @@
 <?php
 
 
-namespace TarfinLabs\LaravelPos\Tests;
+namespace Rdtvaacar\LaravelPos\Tests;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Str;
-use TarfinLabs\LaravelPos\Card;
-use TarfinLabs\LaravelPos\LaravelPosFacade as LaravelPos;
-use TarfinLabs\LaravelPos\Order;
-use TarfinLabs\LaravelPos\PaymentBuilder;
+use Rdtvaacar\LaravelPos\Card;
+use Rdtvaacar\LaravelPos\LaravelPosFacade as LaravelPos;
+use Rdtvaacar\LaravelPos\Order;
+use Rdtvaacar\LaravelPos\PaymentBuilder;
 
 class PaymentBuilderTest extends FeatureTestCase
 {

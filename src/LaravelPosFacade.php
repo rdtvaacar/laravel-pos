@@ -1,11 +1,11 @@
 <?php
 
-namespace TarfinLabs\LaravelPos;
+namespace Rdtvaacar\LaravelPos;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \TarfinLabs\LaravelPos\Skeleton\SkeletonClass
+ * @see \Rdtvaacar\LaravelPos\Skeleton\SkeletonClass
  */
 class LaravelPosFacade extends Facade
 {

@@ -1,11 +1,11 @@
 <?php
 
 
-namespace TarfinLabs\LaravelPos;
+namespace Rdtvaacar\LaravelPos;
 
 
 use Illuminate\Support\Facades\Http;
-use TarfinLabs\LaravelPos\Integrators\NestPay;
+use Rdtvaacar\LaravelPos\Integrators\NestPay;
 
 class PaymentBuilder
 {

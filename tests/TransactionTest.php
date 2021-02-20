@@ -1,10 +1,10 @@
 <?php
 
 
-namespace TarfinLabs\LaravelPos\Tests;
+namespace Rdtvaacar\LaravelPos\Tests;
 
 use Carbon\Carbon;
-use TarfinLabs\LaravelPos\Transaction;
+use Rdtvaacar\LaravelPos\Transaction;
 
 class TransactionTest extends FeatureTestCase
 {

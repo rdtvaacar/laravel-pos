@@ -1,7 +1,7 @@
 <?php
 
 
-namespace TarfinLabs\LaravelPos;
+namespace Rdtvaacar\LaravelPos;
 
 
 class Order

@@ -1,11 +1,11 @@
 <?php
 
 
-namespace TarfinLabs\LaravelPos\Tests\Fixtures;
+namespace Rdtvaacar\LaravelPos\Tests\Fixtures;
 
 
 use Illuminate\Database\Eloquent\Model;
-use TarfinLabs\LaravelPos\Billable;
+use Rdtvaacar\LaravelPos\Billable;
 
 class User extends Model
 {

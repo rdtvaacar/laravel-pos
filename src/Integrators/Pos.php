@@ -1,9 +1,9 @@
 <?php
 
-namespace TarfinLabs\LaravelPos\Integrators;
+namespace Rdtvaacar\LaravelPos\Integrators;
 
 use Illuminate\Http\Client\Response;
-use TarfinLabs\LaravelPos\PaymentBuilder;
+use Rdtvaacar\LaravelPos\PaymentBuilder;
 
 abstract class Pos
 {

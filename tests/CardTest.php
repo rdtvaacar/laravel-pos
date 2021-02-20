@@ -1,11 +1,11 @@
 <?php
 
 
-namespace TarfinLabs\LaravelPos\Tests;
+namespace Rdtvaacar\LaravelPos\Tests;
 
 
-use TarfinLabs\LaravelPos\Card;
-use TarfinLabs\LaravelPos\Exceptions\CardException;
+use Rdtvaacar\LaravelPos\Card;
+use Rdtvaacar\LaravelPos\Exceptions\CardException;
 
 class CardTest extends FeatureTestCase
 {
